@@ -11,6 +11,7 @@
     "react-scripts": "3.4.1"
   },
   "devDependencies": {
+    "react-router-dom": "^5.1.2",
     "styled-components": "^5.0.1",
     "twin.macro": "^1.0.0-alpha.8"
   },

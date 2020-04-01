@@ -1,5 +1,5 @@
-import React from 'react'
+import React from 'react';
 
 export function LoginPage() {
-  return <div>Login</div>
+  return <div>Login</div>;
 }

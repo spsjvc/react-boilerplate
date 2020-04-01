@@ -1,5 +1,5 @@
-import { LoginPage } from './pages/LoginPage'
-import { RegisterPage } from './pages/RegisterPage'
+import { LoginPage } from './pages/LoginPage';
+import { RegisterPage } from './pages/RegisterPage';
 
 export const routes = [
   {
@@ -10,4 +10,4 @@ export const routes = [
     path: '/register',
     component: RegisterPage,
   },
-]
+];

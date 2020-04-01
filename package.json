@@ -14,6 +14,9 @@
     "eslint": "^6.8.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-react": "^7.19.0",
+    "husky": "^4.2.3",
+    "lint-staged": "^10.1.1",
+    "prettier": "^2.0.2",
     "react-router-dom": "^5.1.2",
     "styled-components": "^5.0.1",
     "twin.macro": "^1.0.0-alpha.8"
@@ -43,6 +46,17 @@
     "twin": {
       "styled": "styled-components",
       "config": "src/tailwind.config.js"
+    }
+  },
+  "lint-staged": {
+    "**/*.{js,jsx}": [
+      "eslint --fix",
+      "prettier --config --write"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   }
 }
